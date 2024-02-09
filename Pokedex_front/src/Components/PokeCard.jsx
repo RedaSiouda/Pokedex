@@ -5,6 +5,7 @@ import axios from 'axios';
 function PokeCard() {
   const [pokeCard, setPokeCard] = useState([]);
 
+  //fetching data from pokeAPI
   useEffect(() => {
     console.log('effect');
     axios
